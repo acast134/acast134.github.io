@@ -1,0 +1,60 @@
+body {
+    /*background-color: beige;*/
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1 {
+    font-size: 1.5em;
+    color: black;
+    font-family: sans-serif;
+    
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div{
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+div > h3 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#exp{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sub{
+    font-weight: normal;
+}
+
+time{
+    font-weight: normal;
+}
+
+li {
+    margin-left: 3em;
+    list-style-position: inside;
+    text-indent: -1.25em;
+    }
